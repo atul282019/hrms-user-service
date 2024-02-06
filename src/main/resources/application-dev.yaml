@@ -1,0 +1,20 @@
+tenants:
+  db-sources:
+    HRMS_1:
+      jdbcUrl: jdbc:postgresql://localhost:5432/hrms?currentSchema=hrms_1&useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull
+      driverClassName: org.postgresql.Driver
+      username: postgres
+      password: rootr6575676
+      schema: hrms_1
+    HRMS_2:
+      jdbcUrl: jdbc:postgresql://localhost:5432/hrms?currentSchema=hrms_2&useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull
+      driverClassName: org.postgresql.Driver
+      username: postgres
+      password: root
+      schema: hrms_2
+    MASTER:
+       jdbcUrl: jdbc:postgresql://localhost:5432/hrms
+       driverClassName: org.postgresql.Driver
+       username: postgres
+       password: root
+       schema: hrms_mst    
