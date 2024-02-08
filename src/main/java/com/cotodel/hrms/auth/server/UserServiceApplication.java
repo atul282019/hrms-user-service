@@ -31,10 +31,10 @@ import io.swagger.v3.oas.models.info.License;
 @EntityScan( basePackages = {"com.cotodel.hrms.auth.server.model.*"})
 @ComponentScan(basePackages = "com.cotodel.hrms.auth.*")
 @OpenAPIDefinition( servers=  { @Server(url="/hrmsAuthSevice", description = "Default Server URL" )})
-public class AuthServerApplication {
+public class UserServiceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(AuthServerApplication.class, args);
+		SpringApplication.run(UserServiceApplication.class, args);
 	}
 
 	@Bean
