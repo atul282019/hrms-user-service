@@ -25,7 +25,7 @@ import lombok.NoArgsConstructor;
 @Entity
 @AllArgsConstructor
 @NoArgsConstructor
-@Table(name="user")
+@Table(name="user_details")
 @Access(value=AccessType.FIELD)
 @SequenceGenerator(name="user_seq" , sequenceName="user_seq", allocationSize=1)
 public class UserEntity implements Serializable{
